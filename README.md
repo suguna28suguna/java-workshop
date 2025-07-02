@@ -6,3 +6,4 @@ keywords
 datatype
 control statement
 looping statement
+operators
