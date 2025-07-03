@@ -2,39 +2,22 @@ package src.com.java.workshop.temparturedata.beans;
 
 public class Floor {
     private String name;
-    private int zoneid;
-    private String Stringtype;
-    private double area;
+    private int number;
 
-    public void setname(String aName){
+     public void setName(String aName){
         name=aName;
     }
 
     public String getName() {
         return name;
     }
-
-    public void setzoneid(int aZoneid){
-        zoneid=aZoneid;
+    public void setNumber(int aNumber){
+        number=aNumber;
     }
 
-    public int getzoneid(){
-       return zoneid;
+    public int getNumber() {
+        return number;
     }
-    public void setstringtype(String aStringtype){
-        Stringtype=aStringtype;
-    }
-
-    public String getstringtype() {
-        return Stringtype ;
-    }
-
-    public void setarea(double aArea){
-        area=aArea;
-    }
-
-    public double getarea(){
-       return area;
-    }
+    
 
 }
