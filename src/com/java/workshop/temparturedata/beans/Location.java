@@ -19,7 +19,7 @@ public class Location{
         return name;
     }
 
-    public double setLatitude(double aLatitude){
+    public void setLatitude(double aLatitude){
         latitude=aLatitude;
     }
 
@@ -27,7 +27,7 @@ public class Location{
        return latitude;
     }
 
-    public double setLongitude(double aLongitude){
+    public void setLongitude(double aLongitude){
         longitude=aLongitude;
     } 
     public double getLongitude(){
