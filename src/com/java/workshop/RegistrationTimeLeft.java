@@ -10,6 +10,6 @@ public class RegistrationTimeLeft {
         int mintuesLeft =registrLocalTime.getMinute()- currentTime.getMinute();
         int secondsleft =registrLocalTime.getSecond()- currentTime.getSecond();
         System.out.println("You have "+hoursLeft+" hours, " +mintuesLeft+" Mintues,and "+secondsleft+"seconds left to register." );
-   }
+    }
 
 }
