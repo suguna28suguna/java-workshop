@@ -12,5 +12,5 @@ public class StudentSet {
         rollNos.add(1004);
         rollNos.add(1005);
         System.out.println(rollNos);
-    }
+    }   
 }
