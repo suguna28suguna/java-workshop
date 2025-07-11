@@ -1,6 +1,7 @@
 package com.java.workshop.collections;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class ListExample {
@@ -10,6 +11,9 @@ public class ListExample {
         names.add("ajeetha");
         names.add("soya");
         names.add("suguna");
+        names.forEach(System.out::println);
+        names.sort(Comparator.reverseOrder());
+        System.out.println(names);
          
         System.out.println("Names List:"+names);
         for(String name:names){
@@ -20,6 +24,6 @@ public class ListExample {
             System.out.println("Names at index"+ i +"." +names.get(i));
             
         }
-        
     }
 }
+
