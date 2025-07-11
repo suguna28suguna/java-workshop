@@ -12,4 +12,4 @@ public class SquareTest {
         Square square = (int x) -> x*x;
         Assertions.assertEquals(36,square.findSquare(6));
     }
-}
+}     
