@@ -13,5 +13,4 @@ public class MarkSorted {
         List<Integer> reverseDec=marks.stream().sorted((a,b) ->b.compareTo(a)).toList();
         System.out.println("Reverse Sorted Marks:"+reverseDec);
     }
-
 }
